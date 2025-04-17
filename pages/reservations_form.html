@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../styles/make_reservation.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<div id="reservationModal" class="reservation-container">
+    <center><h1>Make a Reservation</h1></center>
+    <hr>
+    <form action="makeReservation.php" method="POST">
+
+      <div class="reservation-content">
+        <label for="guests">Number of Guests:</label>
+        <input type="number" placeholder="Number of guests" name="guests" min="1" required>
+      </div>
+
+      <div class="reservation-content">
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" name="checkin" required>
+        <label for="checkout">Check-out Date:</label>
+        <input type="date" name="checkout" required>
+      </div>
+
+      <div class="reservation-content">
+        <label for="price">Total Price:</label>
+        <input type="text" name="price" disabled>
+      </div>
+
+      <div class="reservation-buttons">
+        <button type="submit" id="annuler_res">Annuler</button>
+        <button type="submit" id="confirmer_res">Reserve</button>
+      </div>
+    </form>
+</div>
+
+</body>
+</html>

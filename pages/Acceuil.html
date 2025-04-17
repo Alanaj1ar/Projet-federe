@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/e31083a9ae.js" crossorigin="anonymous"></script>
+  <script src="scripts/script.js"></script>
+  <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../styles/style2.css">
+  <link rel="stylesheet" href="../styles/responsive.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AlaBooking</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="Acceuil.html"><img src="logo.jpg" width="150px" height="65px"></a>
+    </div>
+    <div class="nav">
+      <li><a href="Acceuil.html" class="nav-link">Acceuil</a></li>
+      <li class="appear">
+        <a href="Hotels.html" class="nav-link">Reservation</a>
+        <div class="appear-content">
+          <h3>CATEGORIES</h3>
+          <a href="Hotels.html">Hotels</a>
+          <a href="Restaurents.html">Restaurents</a>
+          <a href="Salles.html">Salles De Reunion</a>
+          <a href="">Co-Working Space</a>
+        </div>
+      </li>
+      <li><a href="profile.html" class="nav-link">Profile</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </div>
+    <div class="connection">
+      <li><a href="login.html">Log In</a></li>
+      <button id="getstarted">Get Started</button>
+    </div>
+  </header>
+
+  <div class="offres">
+    <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-wrap="true" data-bs-pause="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="../pictures/slides/photo1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Hotels</h5>
+            <p>Discover your new favorite stay</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="../pictures/slides/photo2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Restaurents</h5>
+            <p>Find your new favorite spot to dine!</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="../pictures/slides/photo3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Salles de Reunion</h5>
+            <p>Discover the perfect meeting place!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="reservation2">
+    <div class="options">
+      <a href="Hotels.html">
+        <div class="opt1">
+          <i class="fa-solid fa-hotel"></i>
+          <span>Hotels</span>
+        </div>
+      </a>
+      <a href="Restaurents.html">
+        <div class="opt1">
+          <i class="fa-solid fa-utensils"></i>
+          <span>Restaurents</span>
+        </div>
+      </a>
+      <a href="Salles.html">
+        <div class="opt1">  
+          <i class="fa-solid fa-business-time"></i>
+          <span>Salles de Reunion</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+    <div class="articles-container" id="recommendations">
+      <h4>Recommendations </h4>
+      <div class="sub-recommendations">
+        <h4>Les meilleurs hôtels dans votre pays</h4>
+        <p>Trouvez des hôtels proches de chez vous pour un séjour inoubliable.</p>
+        <div class="recomm-options">
+
+          <div class="article1">
+            <div class="photo-cont">
+              <img src="../pictures/hotel1.jpg" alt="">
+            </div>
+            <div class="article-info">
+              <div class="name">
+                <h5>Royal Oasis Hotel</h5>
+                <p><i class="fa-solid fa-signs-post"></i> Gammarth, Tunis</p>
+              </div>
+              <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            </div>
+            <div class="article-info">
+              <div class="price"><h5>120DT</h5><p>par nuit</p></div>
+              <button>reserver</button>
+            </div>
+          </div>
+          
+          <div class="article1">
+            <div class="photo-cont">
+              <img src="../pictures/hotel2.jpg" alt="">
+            </div>
+            <div class="article-info">
+              <div class="name">
+                <h5>Palm Beach Resort</h5>
+                <p><i class="fa-solid fa-signs-post"></i> Sousse</p>
+              </div>
+              <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            </div>
+            <div class="article-info">
+              <div class="price"><h5>90DT</h5><p>par nuit</p></div>
+              <button>reserver</button>
+            </div>
+          </div>
+          
+          <div class="article1">
+            <div class="photo-cont">
+              <img src="../pictures/hotel3.jpg" alt="">
+            </div>
+            <div class="article-info">
+              <div class="name">
+                <h5>Hotel El Mouradi</h5>
+                <p><i class="fa-solid fa-signs-post"></i> Hammamet</p>
+              </div>
+              <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            </div>
+            <div class="article-info">
+              <div class="price"><h5>65DT</h5><p>par nuit</p></div>
+              <button>reserver</button>
+            </div>
+          </div>
+        </div>
+        <div class="sub-recommendations">
+          <h4>Les meilleurs restaurants dans votre pays</h4>
+          <p>Pas besoin de voyager loin pour goûter de nouvelles saveurs. Découvrez les meilleurs restaurants près de chez vous.</p>
+          <div class="recomm-options">
+
+            <div class="article1">
+              <div class="photo-cont">
+                <img src="../pictures/resto1.jpg" alt="">
+              </div>
+              <div class="article-info">
+                <div class="name">
+                  <h5>Sahara Grill</h5>
+                  <p><i class="fa-solid fa-signs-post"></i> Djerba</p>
+                </div>
+                <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              </div>
+              <div class="article-info">
+                <div class="price"><h5>40DT</h5><p>par repas</p></div>
+                <button>reserver</button>
+              </div>
+            </div>
+
+            <div class="article1">
+              <div class="photo-cont">
+                <img src="../pictures/resto2jpg.jpg" alt="">
+              </div>
+              <div class="article-info">
+                <div class="name">
+                  <h5>Le Gourmet Tunisien</h5>
+                  <p><i class="fa-solid fa-signs-post"></i> La Marsa</p>
+                </div>
+                <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              </div>
+              <div class="article-info">
+                <div class="price"><h5>35DT</h5><p>par repas</p></div>
+                <button>reserver</button>
+              </div>
+            </div>
+            
+            <div class="article1">
+              <div class="photo-cont">
+                <img src="../pictures/resto3.jpg" alt="">
+              </div>
+              <div class="article-info">
+                <div class="name">
+                  <h5>Bella Pasta</h5>
+                  <p><i class="fa-solid fa-signs-post"></i> Sfax</p>
+                </div>
+                <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              </div>
+              <div class="article-info">
+                <div class="price"><h5>25DT</h5><p>par repas</p></div>
+                <button>reserver</button>
+              </div>
+            </div>
+            
+        <div class="sub-recommendations">
+          <h4>Our Sponsors</h4>
+          <div class="sponsors">
+            <img src="../pictures/Salles-bg.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    
+  <footer>
+    <div class="footer1">
+    <div class="footerdiv">
+      <li><a href="#">Aide</a></li>
+      <li><a href="#">Parametre de confidentialité</a></li>
+      <li><a href="#">Se connecter</a></li>
+    </div>
+    <div class="footerdiv">
+      <li><a href="#">Politique en matière de cookies</a></li>
+      <li><a href="#">Politique de confidentialité</a></li>
+      <li><a href="#">Conditions d'utilisation</a></li>
+      <li><a href="#">Coordonnées de la société</a></li>
+    </div>
+    <div class="footerdiv">
+      <li><a href="#">Explorer</a></li>
+      <li><a href="#">Entreprise</a></li>
+      <li><a href="#">Partenaires</a></li>
+      <li><a href="#">Voyages</a></li>
+    </div>
+    <div class="footerdiv">
+      <li><p>Social Media</p></li>
+      <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+    </div>
+    </div>
+    <h3>Comparez et réservez des vols pas chers avec GoBookIt <br> &copy; GoBookIt Ltd 2025 – 2026</h3>
+  </footer>
+</body>
+</html>
